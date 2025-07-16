@@ -1,0 +1,13 @@
+password=Jemal@1997
+
+old connection supabase
+// npm i --save @supabase/supabase-js
+import { createClient } from "@supabase/supabase-js";
+export const supabaseUrl = "https://ojdcpzmqimauzfnmqwid.supabase.co";
+const supabaseKey =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9qZGNwem1xaW1hdXpmbm1xd2lkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDYyMDYyMDYsImV4cCI6MjAyMTc4MjIwNn0.HPns-lfVn-KSqanPXjrGwBKsm_xoAgnnMchkVoEdAhQ";
+const supabase = createClient(supabaseUrl, supabaseKey);
+
+export default supabase;
+
+hook.js:608 styled-components
