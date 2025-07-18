@@ -76,3 +76,11 @@ wild-oasis/
 ├── main.jsx
 
 └── vite.config.js
+
+## ⚙️ Getting Started
+
+ Install dependencies: 
+ 
+    npm install
+    npm run dev
+
